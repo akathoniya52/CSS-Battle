@@ -1,0 +1,47 @@
+<div class="main">
+  <div class='first'>
+    <div class="reactangle"></div>
+    <div class="reactangle"></div>
+    <div class="reactangle"></div>
+  </div>
+  <div class="second">
+    <div class="reactangle"></div>
+    <div class="reactangle"></div>
+    <div class="reactangle"></div>
+    
+  </div>
+</div>
+<style>
+ body{
+   background:#0D004C;
+ }
+
+.main{
+  display:flex;
+  width:100%;
+  height:100vh;
+  justify-content:center;
+  align-items:center;
+  }
+
+  
+.reactangle{
+  background:#B8B7CC;
+  width:120px;
+  height:30px;
+}
+  .first{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin-top:14px;
+  }
+
+  .second{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    margin-top:-46px;
+  }
+      
+</style>
